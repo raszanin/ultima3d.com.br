@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ultima3D Store
 
-## Getting Started
+Loja online de produtos únicos impressos em 3D. Decoração, acessórios, organizadores e presentes personalizados — todos feitos sob medida com tecnologia de última geração.
 
-First, run the development server:
+## Sobre
+
+**Ultima3D Store** é uma marca premium de produtos personalizados em impressão 3D. Transformamos ideias em peças reais, com qualidade profissional e acabamento impecável.
+
+### Nossa Identidade
+
+- **Posicionamento**: Marca premium de criação personalizada em 3D
+- **Mensagem**: "Sua ideia, agora em forma real"
+- **Paleta**: Roxo neon (#7B3FE4) e preto (#0D0D0D)
+- **Arquétipo**: Criador + Artesão Tecnológico
+
+## Tecnologias
+
+- **Framework**: [Next.js 16](https://nextjs.org) com App Router
+- **Linguagem**: TypeScript 5
+- **Estilização**: Tailwind CSS v4
+- **Linting**: Biome
+- **Implantação**: Vercel
+
+## Scripts
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev      # Servidor de desenvolvimento (http://localhost:3000)
+npm run build    # Build de produção
+npm run start    # Servidor de produção
+npm run lint     # Verificar erros de código
+npm run format   # Formatar código automaticamente
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estrutura
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/
+│   ├── layout.tsx      # Layout raiz
+│   ├── page.tsx       # Página inicial
+│   └── products/
+│       └── page.tsx   # Página de produtos (em construção)
+├── components/
+│   ├── header.tsx     # Cabeçalho com navegação
+│   ├── hero.tsx       # Seção hero
+│   ├── categories.tsx  # Categorias de produtos
+│   ├── products.tsx    # Grid de produtos
+│   ├── why-us.tsx     # Diferenciais da marca
+│   └── footer.tsx     # Rodapé
+└── styles/
+    └── globals.css    # Estilos globais
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Desenvolvimento
 
-## Learn More
+1. Clone o repositório
+2. Instale as dependências: `npm install`
+3. Inicie o servidor: `npm run dev`
+4. Acesse [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+## Recursos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Design responsivo para desktop e mobile
+- SEO otimizado com Metadata API
+- Componentes reutilizáveis
+- Código formatado com Biome
+- Acessibilidade com ARIA labels
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Ultima3D Store — Peças personalizadas em impressão 3D
